@@ -1,0 +1,335 @@
+@import url("https://use.typekit.net/izb2dfl.css");
+/* base class */
+.d-inline  {
+    display: inline-block;
+}
+.li-padding {
+    padding-left: 40px;
+
+}
+.clear {
+    clear: both;
+}
+/* Header */
+.nav-background {
+    background-color:  #6F51BD;
+    width: 100%;
+    height: 64px;
+    opacity: 100%;
+}
+.languages {
+    align-items: baseline;
+    margin-top: 28px;
+    margin-left: 128px;
+    display: inline-block;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+.english {
+    color: #FFFFFF;
+    display: inline;
+    padding-right: 4px;
+    /* margin-left: 32px;
+    padding-top: 32px; */
+}
+.georgian {
+    color: #FFFFFF;
+    display: inline;
+    opacity: 40%;
+    /* margin-left: 48px;
+    padding-top: 32px; */
+}
+.nav-right {
+  /* display: inline-block;   */
+  float: right;
+  margin-right: 128px;
+  margin-top: 28px;
+  align-items: center;
+  justify-content: space-between;
+  color:white;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+}
+.page-indicator {
+    display: inline;
+    padding-right: 140px;
+}
+/* main part */
+.background-color {
+    width: 100%;
+    height: 1100px;
+    background-color: #F5A831;
+    
+}
+.video-banner {
+    margin-left: 192px;
+    margin-top: 64px;
+    display: inline-block;
+    position: relative;
+    
+}
+.play-button {
+    position: absolute;
+    top: 148px;
+    left: 264px;
+}
+/* cources */
+.cources{
+    display: inline-block;
+    background-color: #6F51BD;
+    width: 260px;
+    height: 36px;
+    position:absolute;
+    top: 128px;
+    right: 128px;
+    /* filter: blur(0.8px); */
+}
+.course-title {
+    color: white;
+    font-family: roboto, sans-serif;
+    padding-left: 70px;
+    padding-top: 5px;
+}
+.logo-position {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.course-row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.cours-pos {
+    position: absolute;
+    top: 180px;
+    right: 128px;
+}
+.pic-size {
+    width: 260px;
+    height: 100px;
+}
+.course-name {
+    position: absolute;
+    top: 50px;
+    left: 84px;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.course-name1{
+    position: absolute;
+    top: 160px;
+    left: 76px;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+.course-name2{
+    position: absolute;
+    top: 280px;
+    left: 82px;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+.course-name3{
+    position: absolute;
+    top: 400px;
+    left: 64px;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+.course-name4{
+    position: absolute;
+    top: 522px;
+    left: 72px;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+.course-name5{
+    position: absolute;
+    top: 640px;
+    left: 82px;
+    color: white;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+.view {
+    margin-left: 678px;
+    font-family: roboto, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 500;
+    color:#ECF0F3;
+}
+.vid-title {
+    color:#ECF0F3;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 192px;
+}
+.vid-desc{
+    color: #ECF0F3;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 192px;
+    padding-top: 8px;
+}
+.lorem-descr{
+    color: #454545;
+    font-size: 10px;
+    font-style: italic;
+    width: 568px;
+    margin-left: 192px;
+    padding-top: 8px;
+}
+.download-course {
+   margin-left: 658px;
+   padding-top: 16px;
+   margin-bottom: 16px;
+}
+.comment-back {
+    background-color: #6F50BE;
+    width: 568px;
+    height: 18px;
+    margin-left: 192px;
+    border-radius: 4px;
+    margin-bottom: 48px;
+}
+.comment-color {
+    color: white;
+    font-size: 10px;
+    padding-left: 4px;
+    padding-top:4px ;
+}
+.arrow {
+    padding-left: 500px;
+}
+/* box section */
+.box-wrapper {
+    width: 568px;
+    margin-left: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+
+    width: 160px;
+    height: 164px;
+    background-color: white;
+}
+
+.box2{
+    width:160px;
+    height: 164px;
+    background-color: white;
+}
+.box3 {
+    width:160px;
+    height: 164px;
+    background-color: white;  
+}
+.lorem-style{
+    font-size: 10px;
+    color: #707070;
+    padding-bottom: 8px;
+    width: 140px;
+    height: 40px;
+    padding-left: 14px;
+    text-align: center;
+}
+
+.logo {
+    padding-left: 56px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.junior {
+    font-size: 12px;
+    color: #6879D9;
+    padding-left: 40px;
+    padding-bottom: 8px;
+    font-family: roboto, sans-serif;
+}
+.learn-more {
+    padding-left: 56px;
+}
+.ui {
+    font-size: 12px;
+    color: #DA1B66;
+    font-family: roboto, sans-serif;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.ux {
+    font-size: 12px;
+    color:#0863FB;
+    font-family: roboto, sans-serif;
+  text-align: center;
+  padding-bottom: 8px; 
+}
+.services {
+    color: #ECF0F3;
+    font-family: roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 404px;
+    margin-bottom: 16px;
+}
+/* my works */
+.someof {
+    color: #ECF0F3;
+    font-family: roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 380px;
+    margin-top: 24px   
+}
+
+.categories { 
+    display: flex;
+    width: 568px;
+    justify-content: space-between;
+    margin-left: 192px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.chose {
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.categ {
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    opacity: 0.5; 
+}
+.illustrations {
+    display: flex;
+    justify-content: space-between;
+    width: 568px;
+    margin-left: 192px;
+}
