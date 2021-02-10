@@ -123,6 +123,7 @@
 }
 .hover1:hover{
     opacity: 100%;
+    transform: scale(1.1);
 }
 .course-name {
     position: absolute;
@@ -441,7 +442,7 @@
 .devider1 {
     width: 800px;
     height: 1px;
-background-color: white;
+    background-color: white;
     opacity: 40%;
     margin-left: 192px;
     margin-top: 32px;
@@ -454,3 +455,64 @@ background-color: white;
     font-size: 15px;
     margin-top: 16px;
 }
+.size {
+    width: 16px;
+    height: 16px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.flex {
+    display: flex;
+}
+.devider2 {
+    width: 800PX;
+    height: 1px;
+    background-color: white;
+    opacity: 40%;
+    margin-left: 192px;
+    margin-top: 16px;
+}
+.form-tag {
+    margin-left: 240px;
+    border: none;
+}
+.expand {
+    position: absolute;
+    top: 100px;
+    right: 160px;
+    width: 16px;
+    height: 16px;
+    color: white;
+    opacity: 90%;
+}
+/* .anime {
+    position: absolute;
+    z-index: 15;
+    height: 600px;
+    width: 600px;
+} */
+
+.attention {
+    position: absolute;
+    z-index: 100;
+    margin-top: 8px;
+    /* margin-right: 0px; */
+    color:white;
+    animation: movetext 10s infinite ease-in-out;
+}
+/* @keyframes movetext {
+    from{left:0px;}
+    to{right: 0px;}
+} */
+@keyframes movetext {
+    0%   { left: 0px;}
+    25%  { left: 200px;}
+    50%  { left: 600px; }
+    75%  { left: 1000px; }
+    100% { right: 0px;}
+  }  
